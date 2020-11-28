@@ -4,7 +4,7 @@
     {{- $title := site.Title -}}
     {{- with .Title -}}
         {{- if (not (eq . site.Title)) -}}
-            {{- $title = printf `%s | %s` . site.Title -}}
+            {{- $title = . -}}
         {{- end -}}
     {{- end -}}
     {{ printf `<title type="html"><![CDATA[%s]]></title>` $title | safeHTML }}

@@ -8,7 +8,7 @@ This is a fork of [Kausal Modi's `hugo-atom-feed` theme](https://github.com/kaus
 
   1. The ATOM feed pathname has changed from `<DIR>/atom.xml` to `<DIR>/feed.xml`. This is part personal preference, and part to match the path for my previous Jekyll blog
 
-  2. The ATOM feed title has changed from `<PAGE-TITLE> on <SITE-TITLE>` to `<PAGE-TITLE> | <SITE-TITLE>`. The "on" just doesn't work for my site name
+  2. The ATOM feed title has changed from `<PAGE-TITLE> on <SITE-TITLE>` to `<PAGE-TITLE>`. The site title is superflous in my case
 
   3. All regular pages are included in feeds, not just those from sections in `.Site.Params.mainpages`
 
